@@ -168,8 +168,8 @@
 }
 
 .img__landing-info {
-    width: 500px;
-    height: 500px;
+    /*width: 500px;
+    height: 500px;*/
     display: block;
     margin: 0 auto;
     padding-bottom: 25px;
