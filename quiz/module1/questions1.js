@@ -2,29 +2,28 @@
 let questions = [
     {
     numb: 1,
-    question: "L'électricité est une forme d'énergie...",
-    answer: "résultant du mouvement d'électrons.",
+    question: "Les BFR servent à...",
+    answer: "retarder la propagation des flammes.",
     options: [
-      "résultant de la combustion de matières organiques.",
-      "résultant du mouvement d'électrons.",
-      "provenant de l'interaction de molécules.",
-      "issue de la fusion nucléaire."
+      "donner des propriétés de flexibilité aux objets.",
+      "favoriser la propagation des flammes.",
+      "rendre les matériaux imperméables.",
+      "retarder la propagation des flammes."
     ]
   },
     {
     numb: 2,
-    question: "Comment l'électricité est générée ?",
-    answer: "En faisant passer un courant électrique à travers un conducteur.",
+    question: "Quelles propriétés ont les retardateurs de flamme bromés ?",
+    answer: "Ils sont apolaires, peu volatils et s'accumulent dans les graisses.",
     options: [
-      "En utilisant des cristaux pizoélectriques.",
-      "En faisant passer un courant électrique à travers un conducteur.",
-      "En capturant la chaleur géothermique.",
-      "En brûlant des matières organiques."
+      "Ils sont polaires et se dissolvent donc dans l'eau.",
+      "Ils sont très volatils et sont inoffensifs dans l'atmosphère.",
+      "Ils sont apolaires, peu volatils et s'accumulent dans les graisses."
     ]
   },
     {
     numb: 3,
-    question: "Qu'est-ce que le génie électrique ?",
+    question: "Comment se pr ?",
     answer: "Une branche de l'ingénierie concentrée sur les systèmes électriques, électroniques et électromagnétiques.",
     options: [
       "Une branche de l'ingénierie centrée sur les constructions mécaniques.",
