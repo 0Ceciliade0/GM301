@@ -5,10 +5,10 @@ let questions = [
     question: "Les BFR servent à...",
     answer: "retarder la propagation des flammes.",
     options: [
-      "donner des propriétés de flexibilité aux objets.",
-      "favoriser la propagation des flammes.",
-      "rendre les matériaux imperméables.",
-      "retarder la propagation des flammes."
+      "Donner des propriétés de flexibilité aux objets.",
+      "Favoriser la propagation des flammes.",
+      "Rendre les matériaux imperméables.",
+      "Retarder la propagation des flammes."
     ]
   },
     {
@@ -18,7 +18,7 @@ let questions = [
     options: [
       "Ils sont polaires et se dissolvent donc dans l'eau.",
       "Ils sont très volatils et sont inoffensifs dans l'atmosphère.",
-      "Ils sont apolaires, peu volatils et s'accumulent dans les graisses."
+      "Ils sont apolaires, peu volatils et s'accumulent dans les graisses.",
       "La réponse D."
     ]
   },
