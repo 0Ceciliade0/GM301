@@ -47,7 +47,7 @@ let questions = [
     {
     numb: 5,
     question: "Pourquoi de Nouveaux Retardateurs de Flamme ont été introduits ?",
-    answer: "En jouant un rôle essentiel dans la conception de systèmes d'économie d'énergie et de réseaux intelligents.",
+    answer: "Pour remplacer les BFR interdits à l'utilisation et à la production.",
     options: [
       "Pour remplacer les BFR interdits à l'utilisation et à la production.",
       "Pour conférer de nouvelles propriétés aux matériaux.",
