@@ -55,7 +55,7 @@ let questions = [
       "Pour donner des propriétés de résistance supplémentaires."
     ]
   },
- /*  {
+  {
     numb: 6,
     question: "Comment l'électricité est-elle distribuée aux consommateurs ?",
     answer: "Via un réseau de distribution comprenant des lignes électriques, des transformateurs et des sous-stations.",
@@ -65,5 +65,5 @@ let questions = [
       "Exclusivement par le biais de réseaux souterrains.",
       "En utilisant uniquement des lignes électriques sans sous-stations."
     ]
-  } */,
+  },
 ];
