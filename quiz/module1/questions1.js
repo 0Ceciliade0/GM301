@@ -19,42 +19,43 @@ let questions = [
       "Ils sont polaires et se dissolvent donc dans l'eau.",
       "Ils sont très volatils et sont inoffensifs dans l'atmosphère.",
       "Ils sont apolaires, peu volatils et s'accumulent dans les graisses."
+      "La réponse D."
     ]
   },
     {
     numb: 3,
-    question: "Comment se pr ?",
-    answer: "Une branche de l'ingénierie concentrée sur les systèmes électriques, électroniques et électromagnétiques.",
+    question: "Quelles sont leurs principales sources d'émissions dans l'environnement ?",
+    answer: "Toutes à la fois !",
     options: [
-      "Une branche de l'ingénierie centrée sur les constructions mécaniques.",
-      "Une discipline axée sur la gestion des ressources naturelles.",
-      "Une branche de l'ingénierie concentrée sur les systèmes électriques, électroniques et électromagnétiques.",
-      "Une discipline spécialisée dans la conception de ponts et de structures."
+      "Par les effluents des stations d'épuration.",
+      "Par les cheminées des incinérations de matériel informatique.",
+      "Par le lessivage des sols.",
+      "Toutes à la fois !"
     ]
   },
     {
     numb: 4,
-    question: "Quelles sont les principales applications du génie électrique ?",
-    answer: "L'énergie, les télécommunications, l'automatisation industrielle, etc.",
+    question: "Quels sont les effets des BFR?",
+    answer:"Ils sont neurotoxiques, immunotoxiques, génotoxiques et reprotoxiques.",
     options: [
-      "Seulement les télécommunications.",
-      "L'énergie, les télécommunications, l'automatisation industrielle, etc.",
-      "La robotique et l'informatique.",
-      "Seulement l'automatisation industrielle."
+      "On ne sait pas vraiment.",
+      "Ils ne se transmettent pas aux êtres vivants.",
+      "Ils sont absorbés mais sont inoffensifs.",
+      "Ils sont neurotoxiques, immunotoxiques, génotoxiques et reprotoxiques."
     ]
   },
     {
     numb: 5,
-    question: "Comment le génie électrique contribue-t-il à l'efficacité énergétique ?",
+    question: "Pourquoi de Nouveaux Retardateurs de Flamme ont été introduits ?",
     answer: "En jouant un rôle essentiel dans la conception de systèmes d'économie d'énergie et de réseaux intelligents.",
     options: [
-      "En favorisant l'utilisation de combustibles fossiles.",
-      "En concevant des systèmes d'autonomie d'énergie et des technologies d'éclairage inefficaces.",
-      "En jouant un rôle essentiel dans la conception de systèmes d'économie d'énergie et de réseaux intelligents.",
-      "En ignorant complètement les préocuppations liées à l'efficacité énergétique."
+      "Pour remplacer les BFR interdits à l'utilisation et à la production.",
+      "Pour conférer de nouvelles propriétés aux matériaux.",
+      "Les BFR n'étaient pas assez performants.",
+      "Pour donner des propriétés de résistance supplémentaires."
     ]
   },
-  {
+ /*  {
     numb: 6,
     question: "Comment l'électricité est-elle distribuée aux consommateurs ?",
     answer: "Via un réseau de distribution comprenant des lignes électriques, des transformateurs et des sous-stations.",
@@ -64,5 +65,5 @@ let questions = [
       "Exclusivement par le biais de réseaux souterrains.",
       "En utilisant uniquement des lignes électriques sans sous-stations."
     ]
-  },
+  } */,
 ];
