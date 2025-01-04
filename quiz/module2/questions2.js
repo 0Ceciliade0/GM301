@@ -2,60 +2,60 @@
 let questions = [
     {
     numb: 1,
-    question: "Qu'est-ce qu'un électron ?",
-    answer: "Une particule subatomique qui porte une charge négative et orbite autour du noyau d'un atome.",
+    question: "A quoi sert une technique de chromatographie gazeuse ?",
+    answer: "A séparer et quantifier très finement les composés.",
     options: [
-      "Une particule subatomique sans charge.",
-      "Une particule subatomique qui porte une charge électrique positive.",
-      "Une particule subatomique qui porte une charge négative et orbite autour du noyau d'un atome.",
-      "Une particule subatomique qui porte une charge positive et orbite autour du noyau d'un atome."
+      "A identifier les composés analysés.",
+      "A déterminer le degré de toxicité des composés",
+      "A séparer et quantifier très finement les composés.",
+      "A conditionner l'échantillon avant l'analyse."
     ]
   },
     {
     numb: 2,
-    question: "Comment se déplace un électron dans un conducteur électrique ?",
-    answer: "En se déplaçant en réponse à une différence de potentiel électrique, créant ainsi un courant électrique.",
+    question: "A quoi sert la spectrométrie de masse ?",
+    answer: "A identifier les composés analysés.",
     options: [
-      "Par la réflexion des ondes électromagnétiques.",
-      "En oscillant autour de sa position initiale.",
-      "En suivant une trajectoire rectiligne constante.",
-      "En se déplaçant en réponse à une différence de potentiel électrique, créant ainsi un courant électrique."
+      "A identifier les composés analysés.",
+      "A déterminer le degré de toxicité des composés",
+      "A séparer et quantifier très finement les composés.",
+      "A conditionner l'échantillon avant l'analyse."
     ]
   },
     {
     numb: 3,
-    question: "Qu'est-ce qu'un champ électrique ?",
-    answer: "Une région de l'espace où une charge électrique exerce une force sur d'autres charges électriques.",
+    question: "Pourquoi ionise-t-on l'échantillon ?",
+    answer: "Afin de fragmenter les molécules et de les caractériser à l'aide de leurs fragments.",
     options: [
-      "Une région de l'espace où la lumière se propage.",
-      "Une zone isolée de charges électriques.",
-      "Une région de l'espace où une charge électrique exerce une force sur d'autres charges électriques.",
-      "Une région de l'espace où la gravité est intense."
+      "Pour rendre les composés observables",
+      "Afin de fragmenter les molécules et de les caractériser à l'aide de leurs fragments.",
+      "Pour permettre aux composés de réagir entre eux.",
+      "Pour s'affranchir de la variation isotopique."
     ]
   },
     {
     numb: 4,
-    question: "Quelle est la différence entre la tension et le potentiel électrique ?",
-    answer: "Le potentiel électrique est la différence de tension entre deux points.",
+    question: "A propos de l'ECNI :",
+    answer: "C'est une méthode sensible aux composés bromés mais qui s'encrasse et monopolise une machine.",
     options: [
-      "La tension est la force exercée par le potentiel électrique.",
-      "Le potentiel électrique est la différence de tension entre deux points.",
-      "La tension est la quantité de travail par unité de charge nécessaire pour déplacer une charge.",
-      "Le potentiel électrique est la mesure de la force électrique par unité de charge."
+      "La méthode n'est pas très sensible aux composés bromés",
+      "La méthode n'est pas encore assez optimisée pour permettre ces analyses.",
+      "Elle ne s'utilise pas en étant couplée à la chromatographie gazeuse.",
+      "C'est une méthode sensible aux composés bromés mais qui s'encrasse et monopolise une machine."
     ]
   },
     {
     numb: 5,
-    question: "Comment est mesurée la tension électrique ?",
-    answer: "En volts (V) avec un voltmètre.",
+    question: "Pourquoi passer à une méthode utilisant l'EI ?",
+    answer: "C'est une ionisation universellement utilisée dans l'analyse des composés chimiques et elle est moins contraignante.",
     options: [
-      "En ampères (A) avec un ampèremètre.",
-      "En watts (W) avec un wattmètre.",
-      "En volts (V) avec un voltmètre.",
-      "En ohms (Ω) avec un ohmètre."
+      "C'est une ionisation universellement utilisée dans l'analyse des composés chimiques et elle est moins contraignante.",
+      "L'EI ne s'encrasse pas.",
+      "Contrairement à l'ECNI, elle permet d'analyser plusieurs composés en même temps",
+      "Cette ionisation rend l'analyse plus fiable."
     ]
   },
-  {
+  /* {
     numb: 6,
     question: "Qu'est-ce que le courant électrique ?",
     answer: "Le déplacement des électrons à travers la section d'un conducteur par unité de temps.",
@@ -121,4 +121,5 @@ let questions = [
       "Le courant continu n'a pas de direction définie."
     ]
   },
+]; */
 ];
