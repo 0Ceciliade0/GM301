@@ -11,6 +11,16 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <style>
+      .link-lce {
+        color: blue;  /* Définit la couleur du texte en bleu */
+        text-decoration: underline;  /* Sous-ligne le texte */
+      }
+
+      .link-lce:hover {
+        color: darkblue; /* Change la couleur du lien au survol */
+      }
+    </style>
   </head>
 
   <body>
@@ -196,78 +206,45 @@
 
       <div class="container_img">
         <div class="card-holder">
-          <!-- <img src="../images/imageV.png" alt="Image description" /> -->
           <div
-            style="
-              width: 300px;
-              height: 300px;
-              background-image: url(&quot;../images/Cecilia_c.jpg&quot;);
-              background-size: cover;
-            "
+            style="width: 300px; height: 300px; background-image: url('../images/Cecilia_c.jpg'); background-size: cover;"
             oncontextmenu="return false;"
           ></div>
           <h3>Cécilia DELATTRE</h3>
         </div>
         <div class="card-holder">
-          <!-- <img src="../images/imageX.png" alt="Image description" /> -->
           <div
-            style="
-              width: 300px;
-              height: 300px;
-              background-image: url(&quot;../images/Thanina_c.jpg&quot;);
-              background-size: cover;
-            "
+            style="width: 300px; height: 300px; background-image: url('../images/Thanina_c.jpg'); background-size: cover;"
             oncontextmenu="return false;"
           ></div>
-
           <h3>Thanina BELAID</h3>
         </div>
         <div class="card-holder">
-          <!-- <img src="../images/imageY.png" alt="Image description" /> -->
           <div
-            style="
-              width: 300px;
-              height: 300px;
-              background-image: url(&quot;../images/Lauryn_c.jpg&quot;);
-              background-size: cover;
-            "
+            style="width: 300px; height: 300px; background-image: url('../images/Lauryn_c.jpg'); background-size: cover;"
             oncontextmenu="return false;"
           ></div>
-
           <h3>Lauryn MIYOKELE-NSILAZOLA</h3>
         </div>
         <div class="card-holder">
-          <!-- <img src="../images/imageZ.png" alt="Image description" /> -->
           <div
-            style="
-              width: 300px;
-              height: 300px;
-              background-image: url(&quot;../images/Yasmine_c.jpg&quot;);
-              background-size: cover;
-            "
+            style="width: 300px; height: 300px; background-image: url('../images/Yasmine_c.jpg'); background-size: cover;"
             oncontextmenu="return false;"
           ></div>
-
           <h3>Yasmine BOUASSEL</h3>
         </div>
       </div>
 
       <div class="pannel">
-        <p class="p__pannel"> Ce projet a été réalisé en partenariat avec le Laboratoire de Chimie de l'Environnement (LCE), Site de l'Arbois, que nous remercions chaleureusement pour l'accueil et l'encadrement.</p>
-        <a href="https://lce.univ-amu.fr/" target="_blank">Ouvrir Example dans un nouvel onglet</a>
+        <p class="p__pannel"> Ce projet a été réalisé en partenariat avec le <a href="https://lce.univ-amu.fr/" target="_blank" class="link-lce">Laboratoire de Chimie de l'Environnement (LCE)</a>, que nous remercions chaleureusement pour l'accueil et l'encadrement.</p>
+        <a href="https://lce.univ-amu.fr/" target="_blank" class="link-lce">Ouvrir Example dans un nouvel onglet</a>
       </div>
       
-        <footer>
+      <footer>
         <ul class="footer-links">
-          <li>
-            <a href="../index.html">Accueil</a>
-          </li>
-          <li>
-            <a href="a-propos.html">A propos</a>
-          </li>
-          <li>
-            <a href="#">Politique de confidentialité</a>
-          </li>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="a-propos.html">A propos</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
         </ul>
         <p class="footer-copyright">KiloWhat © 2024</p>
       </footer>
