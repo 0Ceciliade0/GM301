@@ -27,6 +27,13 @@
   padding: 40px;
 }
 
+.a-propos_no_bckg {
+  background-color: var(--white);
+  color: var(-dark-grey);
+  text-align: center;
+  padding: 40px;
+}
+
 .h1__a-propos {
   font-size: 1.7rem;
   font-weight: 550;
