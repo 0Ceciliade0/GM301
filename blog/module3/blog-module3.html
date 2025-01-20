@@ -11,90 +11,156 @@
 </head>
 
 <body>
-  <header>
-    <!-- Conteneur principal -->
-    <div class="container">
-      <!-- Partie gauche de la navigation -->
-      <div class="nav-start">
-        <!-- Logo avec lien vers la page d'accueil -->
-        <a class="logo" href="../../index.html">
-          <!-- Image du logo avec le lien de sa source -->
-          <img src="../../images/logo.png" width="100" height="100" alt="Inc Logo" />
-        </a>
-        <!-- Menu de navigation -->
-        <nav class="menu">
-          <!-- Liste des liens de navigation -->
-          <ul class="menu-bar">
-            <!-- Lien avec le menu déroulant -->
-            <li>
-              <!-- Bouton qui contient le lien vers la page de blog -->
-              <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false"
-                aria-label="browse">
-                Le Blog
-                <i class="bx bx-chevron-down" aria-hidden="true"></i>
-              </button>
-              <!-- Menu déroulant -->
-              <div id="dropdown1" class="dropdown">
-                <!-- Liste des articles du blog -->
-                <ul role="menu">
-                  <!-- Lien vers la page du module 1 -->
-                  <li role="menuitem">
-                    <a class="dropdown-link" href="../../blog/module1/blog-module1.html">
-                      <img src="../../images/blog-icons/molecule.svg" width="40" height="40" class="icon" />
-                      <div>
-                        <span class="dropdown-link-title">Module 1</span>
-                        <p>Introduction aux retardateurs de flamme bromés</p>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- Lien vers la page du module 2 -->
-                  <li role="menuitem">
-                    <a class="dropdown-link" href="../../blog/module2/blog-module2.html">
-                      <img src="../../images/blog-icons/fiole.svg" width="40" height="40" class="icon" />
-                      <div>
-                        <span class="dropdown-link-title">Module 2</span>
-                        <p>Analyser les retardateurs de flamme bromés</p>
-                      </div>
-                    </a>
-                  </li>
-                  <!-- Lien vers la page du module 3 -->
-                  <li role="menuitem">
-                    <a class="dropdown-link" href="../../blog/module3/blog-module3.html">
-                      <img src="../../images/blog-icons/research.svg" width="40" height="40" class="icon" />
-                      <div>
-                        <span class="dropdown-link-title">Module 3</span>
-                        <p>Notre étude</p>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <!-- Autres liens de navigation (qui ne sont pas des menus déroulants) -->
-            <li><a class="nav-link" href="../../quiz/quiz.html">Quiz</a></li>
-            <li>
-              <a class="nav-link" href="../../a-propos/a-propos.html">A propos</a>
-            </li>
-          </ul>
-        </nav>
+    <header>
+        <!-- Conteneur principal -->
+      <div class="container">
+        <!-- Partie gauche de la navigation -->
+        <div class="nav-start">
+          <!-- Logo avec lien vers la page d'accueil -->
+          <a class="logo" href="../../index.html">
+            <!-- Image du logo avec le lien de sa source -->
+            <img
+              src="../../images/logo.png"
+              width="100"
+              height="100"
+              alt="Inc Logo"
+            />
+          </a>
+          <!-- Menu de navigation -->
+          <nav class="menu">
+            <!-- Liste des liens de navigation -->
+            <ul class="menu-bar">
+              <!-- Lien avec le menu déroulant -->
+              <li>
+                <!-- Bouton qui contient le lien vers la page de blog -->
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown1"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="browse"
+                >
+                  Le Blog
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <!-- Menu déroulant -->
+                <div id="dropdown1" class="dropdown">
+                  <!-- Liste des articles du blog -->
+                  <ul role="menu">
+                    <!-- Lien vers la page du module 1 -->
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="../../blog/module1/blog-module1.html">
+                        <img
+                          src="../../images/blog-icons/electricity-svgrepo-com-2.svg"
+                          width="40"
+                          height="40"
+                          class="icon"
+                        />
+                        <div>
+                          <span class="dropdown-link-title">Module 1</span>
+                          <p>Introduction au génie électrique</p>
+                        </div>
+                      </a>
+                    </li>
+                    <!-- Lien vers la page du module 2 -->
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="../../blog/module2/blog-module2.html">
+                        <img
+                          src="../../images/blog-icons/battery-energy-svgrepo-com.svg"
+                          width="40"
+                          height="40"
+                          class="icon"
+                        />
+                        <div>
+                          <span class="dropdown-link-title">Module 2</span>
+                          <p>Les bases de l'électricité</p>
+                        </div>
+                      </a>
+                    </li>
+                    <!-- Lien vers la page du module 3 -->
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="../../blog/module3/blog-module3.html">
+                        <img
+                          src="../../images/blog-icons/resistor-svgrepo-com-3.svg"
+                          width="40"
+                          height="40"
+                          class="icon"
+                        />
+                        <div>
+                          <span class="dropdown-link-title">Module 3</span>
+                          <p>Les bases des circuits électriques</p>
+                        </div>
+                      </a>
+                    </li>
+                    <!-- Lien vers la page du module 4 -->
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="../../blog/module4/blog-module4.html">
+                        <img
+                          src="../../images/blog-icons/inductor-svgrepo-com.svg"
+                          width="40"
+                          height="40"
+                          class="icon"
+                        />
+                        <div>
+                          <span class="dropdown-link-title">Module 4</span>
+                          <p>Les composants électriques</p>
+                        </div>
+                      </a>
+                    </li>
+                    <!-- Lien vers la page du module 5 -->
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="../../blog/module5/blog-module5.html">
+                        <img
+                          src="../../images/blog-icons/magnet-svgrepo-com.svg"
+                          width="40"
+                          height="40"
+                          class="icon"
+                        />
+                        <div>
+                          <span class="dropdown-link-title">Module 5</span>
+                          <p>Le magnétisme</p>
+                        </div>
+                      </a>
+                    </li>
+                    <!-- Lien vers la page du module 6 -->
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="../../blog/module6/blog-module6.html">
+                        <img
+                          src="../../images/blog-icons/electric-tower-tower-svgrepo-com.svg"
+                          width="40"
+                          height="40"
+                          class="icon"
+                        />
+                        <div>
+                          <span class="dropdown-link-title">Module 6</span>
+                          <p>Les réseaux électriques</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- Autres liens de navigation (qui ne sont pas des menus déroulants) -->
+              <li><a class="nav-link" href="../../quiz/quiz.html">Quiz</a></li>
+              <li><a class="nav-link" href="../../a-propos/a-propos.html">A propos</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Partie droite de la navigation -->
+        <div class="nav-end">
+          <!-- Bouton de menu hamburger pour les petits écrans (téléphones) -->
+          <button
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
-  
-      <!-- Partie droite de la navigation -->
-      <div class="nav-end">
-        <!-- Bouton de menu hamburger pour les petits écrans (téléphones) -->
-        <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
-          <i class="bx bx-menu" aria-hidden="true"></i>
-        </button>
-      <!--Logo AMU -->
-      <div class="amu-logo">
-        <a href="https://www.univ-amu.fr/fr">
-          <img src="../../images/logo-amu.svg" width="140" height="140"/>
-        </a>
-      </div>
-      </div>
-    </div>
-  </header>
-  
+    </header>
 
     <main class="main-blog">
         <section class="wrapper">
@@ -133,18 +199,28 @@
                 Nos résultats
                 <i class="fa-solid fa-chevron-down"></i>
               </button>
-              <div class="pannel">
-                <p class="p__pannel">Les <strong>lois de Kirchhoff</strong> sont deux principes fondamentaux en électricité qui décrivent la <strong>conservation de la charge électrique et de l'énergie</strong> dans un circuit électrique complexe. Ces lois sont nommées d'après Gustav Kirchhoff, un physicien allemand du 19e siècle.</p><br>
-                <p class="p__pannel">Les deux lois de Kirchhoff sont les suivantes :</p><br>
-                <p class="p__pannel"><strong>Loi des courants de Kirchhoff (loi des noeuds) :</strong></p><br>
-                <p class="p__pannel">Cette loi stipule que la <strong>somme algébrique des courants entrants et sortants à un nœud</strong> d'un circuit électrique est <strong>égale à zéro</strong>. En d'autres termes, la loi des courants de Kirchhoff affirme que la charge électrique ne s'accumule ni ne se perd au niveau d'un nœud. Cette loi garantit que <strong>la charge électrique est conservée</strong>, de sorte que la somme des courants entrants est égale à la somme des courants sortants à tout nœud dans un circuit.</p>
-                <img
+              <ol>
+                <li>Concernant la séparation des composés et leur identification :</li>
+                  <p class="p__pannel">Après avoir testé les paramètres précédemment évoqués, nous avons réussi à séparer nos 32 molécules : </p>
+                  <img
                     class="img__faq"
-                    src="../../images/modules/m3img3.png"
-                    width="300"
-                    height="200"
+                    src="../../images/modules/fullscan.png"
+                    width="400"
+                    height="250"
                     alt="Inc Logo"
-                />
+                  />
+                  <p class="p__pannel"> Il n'est pas aussi beau que le chromatogramme d'exemple ?</p><br>
+                  <img
+                    class="img__faq"
+                    src="../../images/modules/fullscan_zoomed.png"
+                    width="400"
+                    height="250"
+                    alt="Inc Logo"
+                  />
+                  <p class="p__pannel">Et en zoomant ? Pas mal, non ?</p><br>
+                  <li>Tester les <strong>limites</strong> de la méthode en termes de <strong>sensibilité</strong>, molécule par molécule.</li>
+                <li>Tester la méthode sur des <strong>échantillons environnementaux</strong>, contenant des concentrations très faibles de polluants. Pour cela, des épiphytes de Posidonie, espèce endémique et emblématique de la Méditerrannée seront utilisés.</li>
+              </ol>
                 <p class="p__pannel"><strong>Loi des tensions de Kirchhoff (loi des mailles) :</strong></p><br>
                 <p class="p__pannel">La <strong>loi des tensions</strong> de Kirchhoff énonce que dans une <strong>boucle fermée</strong> d'un circuit électrique, <strong>la somme algébrique des tensions</strong> appliquées sur chaque composant (résistance, pile, etc.) <strong>est égale à zéro</strong>. Cette loi reflète la <strong>conservation de l'énergie électrique</strong> dans un circuit. En d'autres termes, la somme des chutes de tension le long d'une boucle est égale à la somme des élévations de tension dans la boucle.</p><br>
                 <img
@@ -185,6 +261,9 @@
           </a>
           <a href="../../quiz/module3/quiz-module3.html">
             <button class="btn-landing">FAIRE LE QUIZ DU MODULE 3</button>
+          </a>
+          <a href="../module4/blog-module4.html">
+            <button class="btn-landing">PASSER AU MODULE SUIVANT</button>
           </a>
         </section>
 
