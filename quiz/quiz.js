@@ -216,11 +216,11 @@ function startTimer(time) {
 
 // fonction pour démarrer la ligne de temps
 function startTimerLine(time){
-    counterLine = setInterval(timer, 29);
+    counterLine = setInterval(timer, 35); // 29
     function timer(){
         time += 1; // incrémenter le temps
         time_line.style.width = time + "px"; // mise à jour de la largeur de ligne de temps
-        if(time > 549){ // si la largeur de la ligne de temps dépasse la largeur de la boîte de quiz, arrêter le compte à rebours
+        if(time > 600){ // si la largeur de la ligne de temps dépasse la largeur de la boîte de quiz, arrêter le compte à rebours // 549
             clearInterval(counterLine); //clear counterLine
         }
     }
