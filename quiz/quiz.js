@@ -31,7 +31,7 @@ continue_btn.onclick = ()=>{
 }
 
 // initialisation des variables
-let timeValue =  15;
+let timeValue =  20;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
