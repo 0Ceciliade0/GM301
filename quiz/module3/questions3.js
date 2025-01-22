@@ -50,7 +50,7 @@ let questions = [
     answer: "J'ai adoré !",
     options: [
       "J'ai adoré !",
-      "Oui, c'était sympa!:)",
+      "Oui, c'était sympa!",
       "Ca va.",
       "Pas du tout, c'était horrible."
     ]
