@@ -26,7 +26,7 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); // afficher la boîte de quiz
     showQuetions(0); // appeler la fonction showQuestions avec l'index de la première question
     queCounter(1); // appeler la fonction queCounter avec la première question
-    startTimer(15); // appeler la fonction startTimer avec une durée de 15 secondes
+    startTimer(20); // appeler la fonction startTimer avec une durée de 20 secondes
     startTimerLine(0); // appeler la fonction startTimerLine avec une largeur initiale de 0
 }
 
@@ -47,7 +47,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); // afficher la boîte de quiz
     result_box.classList.remove("activeResult"); // masquer la boîte de résultats
-    timeValue = 15; 
+    timeValue = 20; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -56,7 +56,7 @@ restart_quiz.onclick = ()=>{
     queCounter(que_numb); // appeler la fonction queCounter avec la première question
     clearInterval(counter); // effacer le compteur
     clearInterval(counterLine); // effacer le compteur de la ligne de temps
-    startTimer(timeValue); // appelle la fonction startTimer avec une durée de 15s
+    startTimer(timeValue); // appelle la fonction startTimer avec une durée de 20s
     startTimerLine(widthValue); // appeler la fonction startTimerLine avec une largeur initiale de 0
     timeText.textContent = "Temps"; // modifier le texte du temps restant
     next_btn.classList.remove("show"); // masquer le bouton suivant
@@ -80,7 +80,7 @@ next_btn.onclick = ()=>{
         queCounter(que_numb); // appeler la fonction queCounter avec le nouveau numéro de la question
         clearInterval(counter); // effacer le compteur
         clearInterval(counterLine); // effacer le compteur de la ligne de temps
-        startTimer(timeValue); // appeler la fonction startTimer avec une durée de 15s
+        startTimer(timeValue); // appeler la fonction startTimer avec une durée de 20s
         startTimerLine(widthValue); // appeler la fonction startTimerLine avec une largeur initiale de 0
         timeText.textContent = "Temps"; // modifier le texte du temps restant
         next_btn.classList.remove("show"); // masquer le bouton suivant
