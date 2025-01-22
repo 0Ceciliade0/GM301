@@ -2,60 +2,60 @@
 let questions = [
     {
     numb: 1,
-    question: "Qu'est-ce qu'un branchement en série en électricité ?",
-    answer: "Le courant suit un seul chemin, passant successivement par chaque composant.",
+    question: "Pourquoi optimiser la chromatographie gazeuse ?",
+    answer: "Toutes les réponses à la fois !",
     options: [
-      "Les composants sont connectés de manière aléatoire.",
-      "Le courant suit un seul chemin, passant successivement par chaque composant.",
-      "Les composants sont connectés en parallèle.",
-      "Le courant se divise en plusieurs chemins."
+      "Pour mieux séparer les composés.",
+      "Pour pouvoir ensuite mieux les quantifier.",
+      "Pour pouvoir les identifier plus formellement.",
+      "Toutes les réponses à la fois !"
     ]
   },
     {
     numb: 2,
-    question: "Comment se comportent les résistances dans un circuit en série ?",
-    answer: "Elles s'additionnent, augmentant la résistance totale du circuit.",
+    question: "En spectrométrie de masse, sur quel paramètre joue-t-on pour optimiser la fragmentation ?",
+    answer: "Sur l'énergie de collision des électrons et sur la température de source.",
     options: [
-      "Elles s'annulent mutuellement.",
-      "Elles s'additionnent, augmentant la résistance totale du circuit.",
-      "Elles ne sont pas affectées.",
-      "Elles s'inversent, diminuant la résistance totale."
+      "Sur l'énergie de collision des électrons, mais pas sur la température de source.",
+      "Sur l'énergie de collision des électrons et sur la température de source.",
+      "Seulement sur la température de source.",
+      "On s'assure au préalable que les composés se fragmentent bien."
     ]
   },
     {
     numb: 3,
-    question: "Qu'est-ce qu'un branchement en parallèle en électricité ?",
-    answer: "Le courant se divise en plusieurs chemins, chacun passant par un composant distinct.",
+    question: "En te basant sur les qualités attendues d'un bon chromatogramme, que peux-tu dire du nôtre ?",
+    answer: "La séparation pourrait être améliorée, mais elle est déjà correcte.",
     options: [
-      "Les composants sont connectés en série.",
-      "Le courant suit un seul chemin.",
-      "Le courant se divise en plusieurs chemins, chacun passant par un composant distinct.",
-      "Les composants sont connectés de manière aléatoire."
+      "Les pics ne sont pas assez intenses.",
+      "Il n'est pas satisfaisant du tout, on ne voit rien !",
+      "La séparation pourrait être améliorée, mais elle est déjà correcte.",
+      "Il vaut mieux se concentrer sur le spectre de masse, car il a une plus grande importance dans l'analyse."
     ]
   },
     {
     numb: 4,
-    question: "Quelles sont les deux lois de Kirchhoff en électricité ?",
-    answer: "La loi des noeuds et la loi des mailles.",
+    question: "Finalement, peut-on utiliser notre méthode pour analyser de vrais échantillons ?",
+    answer: "Oui, l'analyse des épiphytes a donné des résultats satisfaisants, mais nous devons encore améliorer notre méthode.",
     options: [
-      "La loi de l'induction et la loi de la réfraction.",
-      "La loi de Hooke et la loi de Newton.",
-      "La loi des noeuds et la loi des mailles.",
-      "La loi de Coulomb et la loi d'Ohm."
+      "Ca ne sert à rien de la tester sur des échantillons réels.",
+      "Nous n'avons pas testé cette méthode sur des échantillons environnementaux",
+      "Nous n'avons pas réussi à analyser les composés dans nos échantillons.",
+      "Oui, l'analyse des épiphytes a donné des résultats satisfaisants, mais nous devons encore améliorer notre méthode."
     ]
   },
     {
     numb: 5,
-    question: "En quoi consiste la loi de Kirchhoff des courants ?",
-    answer: "La somme des courants entrants à un noeud est égale à la somme des courants sortants de ce noeud.",
+    question: "Tu es arrivé(e) à la dernière question. Ce cours t'a plu(e)?",
+    answer: "J'ai adoré !",
     options: [
-      "La somme des courants entrants à un noeud est égale à la somme des courants sortants de ce noeud.",
-      "La somme des tensions dans une boucle fermée est égale à zéro.",
-      "La tension dans un circuit est proportionnelle au courant.",
-      "La somme des tensions dans une boucle fermée est égale à la somme des courants."
+      "J'ai adoré !",
+      "Oui, c'était sympa!:)",
+      "Ca va.",
+      "Pas du tout, c'était horrible."
     ]
   },
-  {
+  /* {
     numb: 6,
     question: "En quoi consiste la loi de Kirchhoff des tensions ?",
     answer: "La somme des tensions dans une boucle fermée est égale à zéro.",
@@ -87,5 +87,5 @@ let questions = [
       "Uniquement dans les batteries et les véhicules électriques.",
       "Dans l'électronique, les batteries, les véhicules électriques, les applications solaires et éoliennes, et les systèmes de contrôle."
     ]
-  },
+  }, */
 ];
