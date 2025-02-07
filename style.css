@@ -68,6 +68,27 @@ button {
   padding-right: 10px;
 }
 
+.item-logo{
+  padding: 10px;
+}
+
+.lce-logo{
+  padding-left: 10px;
+}
+
+@media (max-width: 1100px) {
+  /* afficher le bouton de menu hamburger */
+  .amu-logo {
+    display: none;
+  }
+  .item-logo {
+    display: none;
+  }
+  .lce-logo {
+    display: none;
+  }
+}
+
 .icon {
   padding: 0.5rem;
   background-color: var(--secondary-color);
